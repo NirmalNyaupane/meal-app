@@ -55,4 +55,5 @@ Start the server
 ```bash
   npm run dev
 ```
-
+## Live view
+https://lively-snickerdoodle-7aa1c6.netlify.app/
