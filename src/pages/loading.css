@@ -1,0 +1,30 @@
+.loading{
+    height: 100vh;
+    width: 100vw;
+
+    background-color: rgb(225, 241, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spiner{
+    border:4px solid gray;
+    border-top-color:rgb(6, 236, 90);
+    height: 80px;
+    width: 80px;
+
+    border-radius: 50%;
+
+    animation: rotation  ease-out 0.75s infinite;
+}
+
+@keyframes  rotation{
+    from{
+        transform:rotate(0turn);
+    }
+
+    to{
+        transform:rotate(1turn);
+    }
+}
